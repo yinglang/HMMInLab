@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1419092264 source:c:\users\asus\desktop\myhmm\hmm7\main.cpp
+	"HMM7Manager.h"
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1419087142 c:\users\asus\desktop\myhmm\hmm7\hmm7manager.h
+	<fstream>
+	"HMM6.h"
+
+1419053157 c:\users\asus\desktop\myhmm\hmm7\hmm6.h
+	<iostream>
+	<stdlib.h>
+	<map>
+	<limits>
+
+1419171341 source:e:\lab\myhmm\hmm7\main.cpp
+	"HMM7Manager.h"
+	<stdlib.h>
+	<ctime>
+	<sstream>
+
+1419171240 e:\lab\myhmm\hmm7\hmm7manager.h
+	<fstream>
+	"HMM6.h"
+
+1419053157 e:\lab\myhmm\hmm7\hmm6.h
+	<iostream>
+	<stdlib.h>
+	<map>
+	<limits>
+

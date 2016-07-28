@@ -1,0 +1,34 @@
+0
+1
+data\train\wav\...   + sil 	---> wordlist
+data\test\wav\...		---> test_wordlist.txt
+2
+用wordlist.txt和test_wordlist.txt建立mfcc的子目录
+拷贝config文件到myfile\pro\下
+3
+dir /s /b 递归的获取目录与文件
+data\train\wav\...  	---> 
+data\test\wav\...       --->
+
+---》getmfcc.scp
+并提取特征
+4
+wordlist.txt ----> hmmstate.txt
+并以此设置model\hmm0
+5
+wordlist.txt -----> \training\mfcc_%%i.txt
+6
+train\lab   -----> train\lab\sil
+6
+创建HIint和HRest文件
+7
+wordlist.txt --->gram.txt  dict.txt hmmlist
+8
+wordlist.txt -----> hmmsdef 
+test_wordlist.txt  ------->mfcc_test.txt
+10
+test_wordlist.txt  -------> 复制test\lab\到test\mfcc
+10
+test_wordlist.txt  -------> ..\pro\test_lablist.txt
+..\pro\test_lablist.txt  ------> ref.mlf
+10

@@ -1,0 +1,10 @@
+@echo off
+md ..\..\data
+md ..\..\data\train
+md ..\..\data\test
+md ..\..\data\train\wav
+md ..\..\data\train\lab
+md ..\..\data\test\wav
+md ..\..\data\test\lab
+md ..\bate
+md ..\pro
